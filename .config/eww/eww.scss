@@ -1,0 +1,183 @@
+* {
+    all: unset;
+}
+
+window {
+    color: #ffffff;
+    font-family: "Inter";
+}
+
+.background {
+    background-color:  #30343f;
+}
+
+ .system, .player, .profile, .date, {
+    background-color: #292d37;
+    border-radius: 10px;
+}
+
+.titlebar {
+    color: #AAC9CE;
+    font-size: 20px;
+    font-weight: bolder;
+
+    margin-top: -685px;
+    margin-left: -20px;
+}
+
+.pfp {
+  background-image: url("/home/k/.config/eww/Profile.png");
+  background-size: 330px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+
+    border-radius: 5px;
+}
+
+.time {
+    margin: 15px 60px -30px 61px;
+    font-size: 50px;
+}
+
+.semicolon {
+    margin: 0px;
+    margin-top: -5px;
+    color: #89b3b7;
+}
+
+.day {
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #86bbbe;
+}
+
+.song-data {
+    font-size: 12px;
+    font-weight: bold;
+
+    margin: 17px 0px 0px -35px;
+}
+
+.song-title {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-right: 30px;
+}
+
+.player-btn {
+    padding: 25px 25px 5px;
+
+    margin-top: -5px;
+}
+
+.player-btn button {
+    color: #86bbbe;
+
+    font-family: "FontAwesome5";
+    font-weight: normal;
+    padding-right: 30px;
+}
+
+.player-btn button:hover {
+    color: #86bbbe;
+}
+
+.player-btn pause-play button  {
+    font-size: 11px;
+}
+
+.song-art {
+    background-size: 90px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 65px;
+
+    border-radius: 6px;
+}
+
+
+.system {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.system slider {
+    all: unset;
+}
+
+.label-ram-bar, .label-vol-bar, .label-cpu-bar {
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-top: 25px;
+    margin-left: -37px;
+}
+
+.label-ram-bar {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.label-vol-bar {
+    margin-left: -35px;
+    color: #ffffff;
+}
+
+.label-cpu-bar {
+    margin-left: -35px;
+    color: #ffffff;
+}
+
+
+ .vol-bar scale trough highlight {
+ all: unset;
+ background-image: linear-gradient(to right, #75afb8, #6a698c);
+ color: #a3d4ae;
+ border-radius: 10px;
+ }
+
+.ram-bar scale trough highlight {
+ all: unset;
+ background-image: linear-gradient(to right, #73aeb8, #605381);
+ color: #a3d4ae;
+ border-radius: 10px;
+ }
+
+.cpu-bar scale trough highlight {
+  all: unset;
+  background-image: linear-gradient(to right, #75afb8, #8a768e);
+  color: #75afb8;
+  border-radius: 10px;
+  }
+
+.ram-bar scale trough {
+	all: unset;
+	background-color: #30343f;
+	border-radius: 50px;
+
+	min-height: 20px;
+    min-width: 150px;
+
+    margin: 23px 45px 0px -50px;
+}
+
+.vol-bar scale trough, .cpu-bar scale trough {
+	all: unset;
+	background-color: #30343f;
+	border-radius: 50px;
+
+	min-height: 20px;
+    min-width: 150px;
+
+    margin: 8px 45px -10px -50px;
+}

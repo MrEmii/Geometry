@@ -1,0 +1,29 @@
+[options]
+font = Cozette 10
+
+[colors]
+cursor = #ffffff
+cursor_foreground = #ffffff
+
+foreground = #ffffff
+foreground_bold = #ffffff
+background = #30343f
+
+highlight = #30343f
+
+color0       =        #30343f
+color1       =        #59B8C5
+color2       =        #3DE5EA
+color3       =        #4DCCD6
+color4       =        #978596
+color5       =        #A58C99
+color6       =        #9A99A3
+color7       =        #C0CCCF
+color8       =        #868E90
+color9       =        #59B8C5
+color10      =        #3DE5EA
+color11      =        #4DCCD6
+color12      =        #978596
+color13      =        #A58C99
+color14      =        #9A99A3
+color15      =        #ffffff
